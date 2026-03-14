@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>BRAINsync – AI Study Groups</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Top notification bar -->
+    <div class="top-bar">
+        <span>70% OFF – Early Access Pass – Grab it Now →</span>
+        <button class="top-bar-btn">Get Offer</button>
+    </div>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="nav-left">
+            <div class="logo">BRAIN<span>sync</span></div>
+        </div>
+        <nav class="nav-center">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#about" class="nav-link">About Us</a>
+            <a href="#pricing" class="nav-link">Pricing</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+        <div class="nav-right">
+            <button class="btn-outline" data-open="login-modal">Login</button>
+            <button class="btn-primary" data-open="signup-modal">Sign Up</button>
+            <button class="nav-toggle" id="navToggle">☰</button>
+        </div>
+    </header>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#about" class="nav-link">About Us</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <button class="btn-outline" data-open="login-modal">Login</button>
+        <button class="btn-primary" data-open="signup-modal">Sign Up</button>
+    </div>
+
+    <!-- Hero / Home -->
+    <section id="home" class="hero section">
+        <div class="hero-content">
+            <h1>Smart AI‑Powered Study Groups</h1>
+            <p>
+                Form perfect study squads, stay consistent, and crush exams with your
+                personal AI tutor inside every group.
+            </p>
+            <div class="hero-actions">
+                <button class="btn-primary">Start Free</button>
+                <button class="btn-outline" data-scroll="#pricing">View Pricing</button>
+            </div>
+            <div class="hero-steps">
+                <div class="step-card">
+                    <span class="step-number">01</span>
+                    <h3>Create Your Profile</h3>
+                    <p>Share your subjects, goals, and study style.</p>
+                </div>
+                <div class="step-card">
+                    <span class="step-number">02</span>
+                    <h3>Get Matched</h3>
+                    <p>AI finds the best‑fit group for your pace and schedule.</p>
+                </div>
+                <div class="step-card">
+                    <span class="step-number">03</span>
+                    <h3>Study With AI</h3>
+                    <p>Daily tasks, quizzes, and feedback inside every session.</p>
+                </div>
+            </div>
+        </div>
+        <div class="hero-media">
+            <div class="hero-bot">
+                <!-- placeholder robot – replace with your image -->
+                🤖
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Features -->
+    <section id="features" class="section section-alt">
+        <div class="section-header">
+            <h2>Our Key Features</h2>
+            <p>Discover what makes our AI‑driven study groups different.</p>
+        </div>
+
+        <div class="card-grid">
+            <article class="feature-card">
+                <h3>Smart Matchmaking for Groups</h3>
+                <p>AI creates balanced study groups based on goals, strengths, and schedule.</p>
+            </article>
+            <article class="feature-card">
+                <h3>AI Study Bot in Every Group</h3>
+                <p>Use built‑in chat to ask questions, summarize notes, and plan sessions.</p>
+            </article>
+            <article class="feature-card">
+                <h3>Gamified Learning & Quiz Battles</h3>
+                <p>Battle friends with quizzes, leaderboards, and rewards.</p>
+            </article>
+            <article class="feature-card">
+                <h3>Reverse Teaching Mode</h3>
+                <p>Explain topics back to the bot and get instant clarity checks.</p>
+            </article>
+            <article class="feature-card">
+                <h3>Memory Decay Feedback System</h3>
+                <p>AI reminds you when concepts are fading and need revision.</p>
+            </article>
+            <article class="feature-card">
+                <h3>Group Health & Analytics</h3>
+                <p>Track attendance, focus time, and question trends per group.</p>
+            </article>
+            <article class="feature-card">
+                <h3>Personalized Study Plans</h3>
+                <p>Auto‑generated to‑do lists, sprints, and revision cycles.</p>
+            </article>
+            <article class="feature-card">
+                <h3>AI Tutoring Assistant</h3>
+                <p>Step‑by‑step help on questions without revealing final answers first.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- About / Goals -->
+    <section id="about" class="section">
+        <div class="section-header">
+            <h2>About BRAINsync</h2>
+            <p>We exist to make studying smarter, more social, and less stressful.</p>
+        </div>
+
+        <div class="card-grid goals-grid">
+            <article class="goal-card">
+                <h3>Empower Collaborative Learning</h3>
+                <p>Give every learner a supportive, focused study squad.</p>
+            </article>
+            <article class="goal-card">
+                <h3>Personalize the Study Experience</h3>
+                <p>Adaptive plans for each student’s pace and strengths.</p>
+            </article>
+            <article class="goal-card">
+                <h3>Make Learning Engaging & Fun</h3>
+                <p>Use challenges, streaks, and quests to fight procrastination.</p>
+            </article>
+            <article class="goal-card">
+                <h3>Build a Global Community</h3>
+                <p>Connect learners across schools, cities, and countries.</p>
+            </article>
+            <article class="goal-card">
+                <h3>Support Consistency & Focus</h3>
+                <p>Daily nudges, reminders, and focus sessions keep you on track.</p>
+            </article>
+            <article class="goal-card">
+                <h3>Enable Equal Access</h3>
+                <p>Core tools free forever so anyone can join and learn.</p>
+            </article>
+        </div>
+
+        <div class="cta-banner">
+            <div>
+                <h3>Together, let’s make studying smarter, not harder.</h3>
+                <p>Join AI‑powered study groups today and start learning together.</p>
+            </div>
+            <button class="btn-primary">Join Now</button>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="section section-alt">
+        <div class="section-header">
+            <h2>Our Pricings</h2>
+            <p>Flexible plans for every learner, from solo students to full classrooms.</p>
+        </div>
+
+        <div class="billing-toggle">
+            <button class="toggle-btn active" data-billing="monthly">Monthly</button>
+            <button class="toggle-btn" data-billing="yearly">Yearly</button>
+        </div>
+
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <h3>Free Plan</h3>
+                <p class="price">
+                    <span class="currency">$</span><span class="amount" data-monthly="0" data-yearly="0">0</span>
+                    <span class="period">/month</span>
+                </p>
+                <ul class="pricing-list">
+                    <li>Join or create 2 study groups</li>
+                    <li>AI Study Bot basic mode</li>
+                    <li>Daily tasks & streak tracking</li>
+                    <li>Quiz battles (limited)</li>
+                    <li>Community support</li>
+                </ul>
+                <button class="btn-outline">Get Started</button>
+            </div>
+
+            <div class="pricing-card pricing-card-pro">
+                <div class="tag">Most Popular</div>
+                <h3>Pro Plan</h3>
+                <p class="price">
+                    <span class="currency">$</span>
+                    <span class="amount" data-monthly="49" data-yearly="39">49</span>
+                    <span class="period">/month</span>
+                </p>
+                <ul class="pricing-list">
+                    <li>Unlimited study groups</li>
+                    <li>Full AI tutoring assistant</li>
+                    <li>Advanced analytics & insights</li>
+                    <li>Custom practice sets & quizzes</li>
+                    <li>Priority support</li>
+                </ul>
+                <button class="btn-primary">Get Started</button>
+            </div>
+        </div>
+
+        <!-- FAQ -->
+        <div class="faq">
+            <h3>Frequently Asked Questions</h3>
+            <div class="faq-item active">
+                <button class="faq-question">
+                    Is there a limit to how many groups I can join?
+                    <span class="faq-icon">−</span>
+                </button>
+                <div class="faq-answer">
+                    Free users can join up to 2 groups. Pro users get unlimited groups.
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">
+                    What devices and browsers are supported?
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    BRAINsync works on any modern browser on laptop, tablet, or phone.
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">
+                    How does the AI‑powered study assistant work?
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    It helps plan sessions, explains concepts step‑by‑step, and creates quizzes from your notes.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <div class="section-header">
+            <h2>Contact Us</h2>
+            <p>Need help or have questions? Reach out any time.</p>
+        </div>
+
+        <div class="contact-grid">
+            <form class="contact-form" id="contactForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>First Name</label>
+                        <input type="text" required />
+                    </div>
+                    <div class="form-group">
+                        <label>Last Name</label>
+                        <input type="text" required />
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" required />
+                    </div>
+                    <div class="form-group">
+                        <label>Phone</label>
+                        <input type="tel" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Subject</label>
+                    <input type="text" required />
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea rows="4" required></textarea>
+                </div>
+                <button class="btn-primary" type="submit">Send Your Message</button>
+                <p class="form-status" id="formStatus"></p>
+            </form>
+
+            <div class="contact-info">
+                <div class="info-card">
+                    <h3>Email</h3>
+                    <p>support@brainsync.com</p>
+                </div>
+                <div class="info-card">
+                    <h3>Phone</h3>
+                    <p>+92 304 245 8756</p>
+                </div>
+                <div class="info-card">
+                    <h3>Location</h3>
+                    <p>Islamabad, Pakistan</p>
+                </div>
+                <div class="info-card">
+                    <h3>Social Profiles</h3>
+                    <div class="social-row">
+                        <a href="#">in</a>
+                        <a href="#">fb</a>
+                        <a href="#">tw</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div>
+                <h3>BRAINsync</h3>
+                <p>AI‑powered groups that keep you accountable and consistent.</p>
+            </div>
+            <div>
+                <h4>Home</h4>
+                <p>Features</p>
+                <p>About Us</p>
+                <p>Our Testimonials</p>
+            </div>
+            <div>
+                <h4>Company</h4>
+                <p>Our Team</p>
+                <p>Our FAQ</p>
+                <p>Our Goals</p>
+            </div>
+            <div>
+                <h4>Social Profiles</h4>
+                <div class="social-row">
+                    <a href="#">in</a>
+                    <a href="#">fb</a>
+                    <a href="#">tw</a>
+                </div>
+            </div>
+        </div>
+        <p class="footer-bottom">© 2026 BRAINsync. All rights reserved.</p>
+    </footer>
+
+    <!-- Login Modal -->
+    <div class="modal" id="login-modal">
+        <div class="modal-dialog">
+            <button class="modal-close" data-close>×</button>
+            <h2>Login</h2>
+            <form class="auth-form">
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" required />
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" required />
+                </div>
+                <div class="form-row space-between">
+                    <label class="remember">
+                        <input type="checkbox" /> Remember me
+                    </label>
+                    <a href="#" class="link-small">Forgot password?</a>
+                </div>
+                <button class="btn-primary" type="submit">Login</button>
+                <button class="btn-outline full-width" type="button">
+                    Sign in with Google
+                </button>
+                <p class="auth-switch">
+                    Don’t have an account?
+                    <a href="#" data-switch="signup-modal">Sign Up</a>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div class="modal" id="signup-modal">
+        <div class="modal-dialog">
+            <button class="modal-close" data-close>×</button>
+            <h2>Sign Up</h2>
+            <form class="auth-form">
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" required />
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" required />
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" required />
+                </div>
+                <label class="remember">
+                    <input type="checkbox" required />
+                    I agree with Terms of Use and Privacy Policy
+                </label>
+                <button class="btn-primary" type="submit">Sign Up</button>
+                <button class="btn-outline full-width" type="button">
+                    Sign up with Google
+                </button>
+                <p class="auth-switch">
+                    Already have an account?
+                    <a href="#" data-switch="login-modal">Login</a>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
